@@ -14,6 +14,8 @@
 		4037763D2C424A9F00E7FBBA /* SwiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037763C2C424A9F00E7FBBA /* SwiftUILearningTests.swift */; };
 		403776472C424A9F00E7FBBA /* SwiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403776462C424A9F00E7FBBA /* SwiftUILearningUITests.swift */; };
 		403776492C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403776482C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift */; };
+		408E0CEC2C42B52900EE3D4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CEB2C42B52900EE3D4F /* Chapter3View.swift */; };
+		408E0CEE2C42B5B000EE3D4F /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CED2C42B5B000EE3D4F /* Chapter2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		403776422C424A9F00E7FBBA /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403776462C424A9F00E7FBBA /* SwiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITests.swift; sourceTree = "<group>"; };
 		403776482C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		408E0CEB2C42B52900EE3D4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
+		408E0CED2C42B5B000EE3D4F /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */,
 				4037762D2C424A9E00E7FBBA /* ContentView.swift */,
+				408E0CEA2C42B2EA00EE3D4F /* Chapter */,
 				4037762F2C424A9F00E7FBBA /* Assets.xcassets */,
 				403776312C424A9F00E7FBBA /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				403776482C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift */,
 			);
 			path = SwiftUILearningUITests;
+			sourceTree = "<group>";
+		};
+		408E0CEA2C42B2EA00EE3D4F /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				408E0CED2C42B5B000EE3D4F /* Chapter2View.swift */,
+				408E0CEB2C42B52900EE3D4F /* Chapter3View.swift */,
+			);
+			path = Chapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4037762E2C424A9E00E7FBBA /* ContentView.swift in Sources */,
+				408E0CEE2C42B5B000EE3D4F /* Chapter2View.swift in Sources */,
 				4037762C2C424A9E00E7FBBA /* SwiftUILearningApp.swift in Sources */,
+				408E0CEC2C42B52900EE3D4F /* Chapter3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
