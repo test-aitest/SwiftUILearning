@@ -14,6 +14,11 @@
 		4037763D2C424A9F00E7FBBA /* SwiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037763C2C424A9F00E7FBBA /* SwiftUILearningTests.swift */; };
 		403776472C424A9F00E7FBBA /* SwiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403776462C424A9F00E7FBBA /* SwiftUILearningUITests.swift */; };
 		403776492C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403776482C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift */; };
+		408B9D552C45369A00DEB12D /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B9D542C45369A00DEB12D /* AppDefine.swift */; };
+		408B9DB42C454CA500DEB12D /* TodayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B9DB32C454CA500DEB12D /* TodayCardView.swift */; };
+		408B9DBB2C46A04F00DEB12D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B9DBA2C46A04F00DEB12D /* Color+Hex.swift */; };
+		408B9DBC2C46A04F00DEB12D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B9DBA2C46A04F00DEB12D /* Color+Hex.swift */; };
+		408B9DBD2C46A04F00DEB12D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B9DBA2C46A04F00DEB12D /* Color+Hex.swift */; };
 		408E0CEC2C42B52900EE3D4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CEB2C42B52900EE3D4F /* Chapter3View.swift */; };
 		408E0CEE2C42B5B000EE3D4F /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CED2C42B5B000EE3D4F /* Chapter2View.swift */; };
 		408E0CF02C44C41F00EE3D4F /* Chapter4_1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CEF2C44C41F00EE3D4F /* Chapter4_1View.swift */; };
@@ -53,6 +58,9 @@
 		403776422C424A9F00E7FBBA /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403776462C424A9F00E7FBBA /* SwiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITests.swift; sourceTree = "<group>"; };
 		403776482C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		408B9D542C45369A00DEB12D /* AppDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
+		408B9DB32C454CA500DEB12D /* TodayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCardView.swift; sourceTree = "<group>"; };
+		408B9DBA2C46A04F00DEB12D /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		408E0CEB2C42B52900EE3D4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		408E0CED2C42B5B000EE3D4F /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		408E0CEF2C44C41F00EE3D4F /* Chapter4_1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4_1View.swift; sourceTree = "<group>"; };
@@ -89,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402370092C452D01005402EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4037761F2C424A9E00E7FBBA = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +127,12 @@
 		4037762A2C424A9E00E7FBBA /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				408B9DB92C469F5E00DEB12D /* Utils */,
+				408B9DB72C45672900DEB12D /* Classes */,
 				4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */,
 				4037762D2C424A9E00E7FBBA /* ContentView.swift */,
+				408B9DB02C454ADC00DEB12D /* Modules */,
+				402370092C452D01005402EF /* Views */,
 				408E0CEA2C42B2EA00EE3D4F /* Chapter */,
 				4037762F2C424A9F00E7FBBA /* Assets.xcassets */,
 				403776312C424A9F00E7FBBA /* Preview Content */,
@@ -144,6 +163,30 @@
 				403776482C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift */,
 			);
 			path = SwiftUILearningUITests;
+			sourceTree = "<group>";
+		};
+		408B9DB02C454ADC00DEB12D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				408B9DB32C454CA500DEB12D /* TodayCardView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		408B9DB72C45672900DEB12D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				408B9D542C45369A00DEB12D /* AppDefine.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		408B9DB92C469F5E00DEB12D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				408B9DBA2C46A04F00DEB12D /* Color+Hex.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		408E0CEA2C42B2EA00EE3D4F /* Chapter */ = {
@@ -318,15 +361,18 @@
 			files = (
 				408E0CF32C44D05800EE3D4F /* Chapter4_2View.swift in Sources */,
 				4037762E2C424A9E00E7FBBA /* ContentView.swift in Sources */,
+				408B9D552C45369A00DEB12D /* AppDefine.swift in Sources */,
 				408E0CEE2C42B5B000EE3D4F /* Chapter2View.swift in Sources */,
 				408E0CF52C44DBD700EE3D4F /* PhotoData.swift in Sources */,
 				408E0CF92C44E1EC00EE3D4F /* RowView.swift in Sources */,
 				4037762C2C424A9E00E7FBBA /* SwiftUILearningApp.swift in Sources */,
+				408B9DBB2C46A04F00DEB12D /* Color+Hex.swift in Sources */,
 				408E0CFC2C44EB8B00EE3D4F /* Chapter4-4View.swift in Sources */,
 				408E0CEC2C42B52900EE3D4F /* Chapter3View.swift in Sources */,
 				408E0CF02C44C41F00EE3D4F /* Chapter4_1View.swift in Sources */,
 				408E0CF72C44DDA900EE3D4F /* Chapter4_3View.swift in Sources */,
 				408E0CFE2C44ED0300EE3D4F /* WebData.swift in Sources */,
+				408B9DB42C454CA500DEB12D /* TodayCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4037763D2C424A9F00E7FBBA /* SwiftUILearningTests.swift in Sources */,
+				408B9DBC2C46A04F00DEB12D /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +391,7 @@
 			files = (
 				403776492C424A9F00E7FBBA /* SwiftUILearningUITestsLaunchTests.swift in Sources */,
 				403776472C424A9F00E7FBBA /* SwiftUILearningUITests.swift in Sources */,
+				408B9DBD2C46A04F00DEB12D /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
