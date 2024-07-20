@@ -18,68 +18,24 @@ struct ContentView: View {
         VStack(spacing: 8) {
             HeadView()
             TabView(selection: $selectionTag) {
-                TodayView().tabItem {
-                    VStack {
-                        if selectionTag == 1 {
-                            Image("Today.filled")
-                        } else {
-                            Image("Today")
-                        }
-                        Text("Today")
-                            .font(TAB_LABEL)
-                            .foregroundStyle(GRAY_500)
-                    }
-                }.tag(1)
-                GamesView().tabItem {
-                    VStack {
-                        if selectionTag == 2 {
-                            Image("Games.filled")
-                        } else {
-                            Image("Games")
-                        }
-                        Text("Games")
-                            .font(TAB_LABEL)
-                            .foregroundStyle(GRAY_500)
-                    }
-                }.tag(2)
-                AppsView().tabItem {
-                    VStack {
-                        if selectionTag == 3 {
-                            Image("Apps.filled")
-                        } else {
-                            Image("Apps")
-                        }
-                        Text("Apps")
-                            .font(TAB_LABEL)
-                            .foregroundStyle(GRAY_500)
-                    }
-                }.tag(3)
-                ArcadeView().tabItem {
-                    VStack {
-                        if selectionTag == 4 {
-                            Image("Arcade.filled")
-                        } else {
-                            Image("Arcade")
-                        }
-                        Text("Arcade")
-                            .font(TAB_LABEL)
-                            .foregroundStyle(GRAY_500)
-                    }
-                }.tag(4)
-               SearchView().tabItem {
-                   VStack {
-                       if selectionTag == 5 {
-                           Image("Search.filled")
-                       } else {
-                           Image("Search")
-                       }
-                       Text("Search")
-                           .font(TAB_LABEL)
-                           .foregroundStyle(GRAY_500)
-                   }
-               }.tag(5)
+                createTab(view: TodayView(), title: "Today", image: "Today", filledImage: "Today.filled", tag: 1)
+                createTab(view: GamesView(), title: "Games", image: "Games", filledImage: "Games.filled", tag: 2)
+                createTab(view: AppsView(), title: "Apps", image: "Apps", filledImage: "Apps.filled", tag: 3)
+                createTab(view: ArcadeView(), title: "Arcade", image: "Arcade", filledImage: "Arcade.filled", tag: 4)
+                createTab(view: SearchView(), title: "Search", image: "Search", filledImage: "Search.filled", tag: 5)
             }
         }.background(.black)
+    }
+    
+    private func createTab<V: View>(view: V, title: String, image: String, filledImage: String, tag: Int) -> some View {
+        view.tabItem {
+            VStack {
+                Image(selectionTag == tag ? filledImage : image)
+                Text(title)
+                    .font(TAB_LABEL)
+                    .foregroundStyle(GRAY_500)
+            }
+        }.tag(tag)
     }
 }
 
