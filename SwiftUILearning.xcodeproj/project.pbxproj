@@ -26,6 +26,8 @@
 		40177B4E2C4B88EE00F1C92E /* Chapter5_8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B4D2C4B88EE00F1C92E /* Chapter5_8View.swift */; };
 		40177B502C4B8B2300F1C92E /* Chapter5_9IView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B4F2C4B8B2300F1C92E /* Chapter5_9IView.swift */; };
 		40177B522C4BC64900F1C92E /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */; };
+		40177B552C4BCBE700F1C92E /* HowToDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B542C4BCBE700F1C92E /* HowToDetailView.swift */; };
+		40177B572C4BD2AA00F1C92E /* StayHomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B562C4BD2AA00F1C92E /* StayHomeDetailView.swift */; };
 		4037762C2C424A9E00E7FBBA /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */; };
 		4037762E2C424A9E00E7FBBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037762D2C424A9E00E7FBBA /* ContentView.swift */; };
 		403776302C424A9F00E7FBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4037762F2C424A9F00E7FBBA /* Assets.xcassets */; };
@@ -86,6 +88,8 @@
 		40177B4D2C4B88EE00F1C92E /* Chapter5_8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5_8View.swift; sourceTree = "<group>"; };
 		40177B4F2C4B8B2300F1C92E /* Chapter5_9IView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5_9IView.swift; sourceTree = "<group>"; };
 		40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
+		40177B542C4BCBE700F1C92E /* HowToDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDetailView.swift; sourceTree = "<group>"; };
+		40177B562C4BD2AA00F1C92E /* StayHomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayHomeDetailView.swift; sourceTree = "<group>"; };
 		403776282C424A9E00E7FBBA /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		4037762D2C424A9E00E7FBBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,9 +163,19 @@
 			path = Chapter5;
 			sourceTree = "<group>";
 		};
+		40177B532C4BCBCE00F1C92E /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				40177B542C4BCBE700F1C92E /* HowToDetailView.swift */,
+				40177B562C4BD2AA00F1C92E /* StayHomeDetailView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		402370092C452D01005402EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				40177B532C4BCBCE00F1C92E /* Details */,
 				4002BCC82C47E5350092664C /* GamesView.swift */,
 				4002BCCA2C47E5450092664C /* AppsView.swift */,
 				4002BCCC2C47E55B0092664C /* ArcadeView.swift */,
@@ -439,9 +453,11 @@
 				4002BCCD2C47E55B0092664C /* ArcadeView.swift in Sources */,
 				408B9D552C45369A00DEB12D /* AppDefine.swift in Sources */,
 				408E0CEE2C42B5B000EE3D4F /* Chapter2View.swift in Sources */,
+				40177B552C4BCBE700F1C92E /* HowToDetailView.swift in Sources */,
 				4002BCC22C47CF160092664C /* AppView.swift in Sources */,
 				408E0CF52C44DBD700EE3D4F /* PhotoData.swift in Sources */,
 				4002BCC52C47DF650092664C /* AppAssets.swift in Sources */,
+				40177B572C4BD2AA00F1C92E /* StayHomeDetailView.swift in Sources */,
 				408E0CF92C44E1EC00EE3D4F /* RowView.swift in Sources */,
 				4002BCCB2C47E5450092664C /* AppsView.swift in Sources */,
 				4002BCCF2C47E5680092664C /* SearchView.swift in Sources */,
