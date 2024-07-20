@@ -16,7 +16,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 8) {
-            HeadView()
+            HeadView(tabNum: selectionTag-1)
             TabView(selection: $selectionTag) {
                 createTab(view: TodayView(), title: "Today", image: "Today", filledImage: "Today.filled", tag: 1)
                 createTab(view: GamesView(), title: "Games", image: "Games", filledImage: "Games.filled", tag: 2)

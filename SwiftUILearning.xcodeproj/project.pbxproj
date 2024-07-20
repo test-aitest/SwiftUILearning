@@ -25,6 +25,7 @@
 		40177B4C2C4B82B000F1C92E /* Chapter5_7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B4B2C4B82B000F1C92E /* Chapter5_7View.swift */; };
 		40177B4E2C4B88EE00F1C92E /* Chapter5_8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B4D2C4B88EE00F1C92E /* Chapter5_8View.swift */; };
 		40177B502C4B8B2300F1C92E /* Chapter5_9IView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B4F2C4B8B2300F1C92E /* Chapter5_9IView.swift */; };
+		40177B522C4BC64900F1C92E /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */; };
 		4037762C2C424A9E00E7FBBA /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */; };
 		4037762E2C424A9E00E7FBBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037762D2C424A9E00E7FBBA /* ContentView.swift */; };
 		403776302C424A9F00E7FBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4037762F2C424A9F00E7FBBA /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 		40177B4B2C4B82B000F1C92E /* Chapter5_7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5_7View.swift; sourceTree = "<group>"; };
 		40177B4D2C4B88EE00F1C92E /* Chapter5_8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5_8View.swift; sourceTree = "<group>"; };
 		40177B4F2C4B8B2300F1C92E /* Chapter5_9IView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5_9IView.swift; sourceTree = "<group>"; };
+		40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
 		403776282C424A9E00E7FBBA /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		4037762D2C424A9E00E7FBBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				408B9DBA2C46A04F00DEB12D /* Color+Hex.swift */,
+				40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				4002BCDC2C4B708D0092664C /* Chapter5_3View.swift in Sources */,
 				4002BCD52C47FE520092664C /* TodayView.swift in Sources */,
 				40177B4E2C4B88EE00F1C92E /* Chapter5_8View.swift in Sources */,
+				40177B522C4BC64900F1C92E /* DateFormatterHelper.swift in Sources */,
 				4002BCE02C4B77650092664C /* Chapter5_5View.swift in Sources */,
 				4002BCC02C46AC210092664C /* AppListView.swift in Sources */,
 			);

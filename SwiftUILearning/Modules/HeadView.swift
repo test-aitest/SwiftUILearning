@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct HeadView: View {
+    var tabNum: Int = 0
+    let today = DateFormatterHelper.formattedCurrentDate()
+    
     var body: some View {
         HStack(alignment: .bottom) {
             VStack(alignment: .leading) {
-                Text("WEDNESDAY, APRIL 15")
-                    .font(CATEGORY)
-                    .foregroundColor(GRAY_400)
-                Text("Today")
+                if tabNum == 0 {
+                    Text(today)
+                        .font(CATEGORY)
+                        .foregroundColor(GRAY_400)
+                } else {
+                    Spacer().frame(height: 16)
+                }
+                Text(tabIconList[tabNum])
                     .font(PAGE_TITLE)
                     .foregroundColor(Color.white)
                     .lineSpacing(40.0)
