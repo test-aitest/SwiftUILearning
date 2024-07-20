@@ -9,13 +9,17 @@ import SwiftUI
 
 struct TodayView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            ForEach(0..<cardList.count-1, id: \.self) { index in
-                cardList[index]
+        ScrollView {
+            VStack(spacing: 20) {
+                ForEach(0..<cardList.count-1, id: \.self) { index in
+                    cardList[index]
+                }
+                AppListView()
+                cardList[cardList.count-1]
             }
-            AppListView()
-            cardList[cardList.count-1]
         }
+        .frame(maxWidth: .infinity)
+        .background(.black)
     }
 }
 

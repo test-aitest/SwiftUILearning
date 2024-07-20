@@ -8,32 +8,78 @@
 import SwiftUI
 
 struct ContentView: View {
-    var tabNum: Int = 1
+    @State var selectionTag = 1
+    
+    init() {
+        UITabBar.appearance().barTintColor = .black
+    }
     
     var body: some View {
-        ScrollView {
-            VStack(spacing: 8) {
-                HeadView()
-                
-                switch tabNum {
-                case 1:
-                    TodayView()
-                case 2:
-                    GamesView()
-                case 3:
-                    AppsView()
-                case 4:
-                    ArcadeView()
-                case 5:
-                    SearchView()
-                default: TodayView()
-                }
+        VStack(spacing: 8) {
+            HeadView()
+            TabView(selection: $selectionTag) {
+                TodayView().tabItem {
+                    VStack {
+                        if selectionTag == 1 {
+                            Image("Today.filled")
+                        } else {
+                            Image("Today")
+                        }
+                        Text("Today")
+                            .font(TAB_LABEL)
+                            .foregroundStyle(GRAY_500)
+                    }
+                }.tag(1)
+                GamesView().tabItem {
+                    VStack {
+                        if selectionTag == 2 {
+                            Image("Games.filled")
+                        } else {
+                            Image("Games")
+                        }
+                        Text("Games")
+                            .font(TAB_LABEL)
+                            .foregroundStyle(GRAY_500)
+                    }
+                }.tag(2)
+                AppsView().tabItem {
+                    VStack {
+                        if selectionTag == 3 {
+                            Image("Apps.filled")
+                        } else {
+                            Image("Apps")
+                        }
+                        Text("Apps")
+                            .font(TAB_LABEL)
+                            .foregroundStyle(GRAY_500)
+                    }
+                }.tag(3)
+                ArcadeView().tabItem {
+                    VStack {
+                        if selectionTag == 4 {
+                            Image("Arcade.filled")
+                        } else {
+                            Image("Arcade")
+                        }
+                        Text("Arcade")
+                            .font(TAB_LABEL)
+                            .foregroundStyle(GRAY_500)
+                    }
+                }.tag(4)
+               SearchView().tabItem {
+                   VStack {
+                       if selectionTag == 5 {
+                           Image("Search.filled")
+                       } else {
+                           Image("Search")
+                       }
+                       Text("Search")
+                           .font(TAB_LABEL)
+                           .foregroundStyle(GRAY_500)
+                   }
+               }.tag(5)
             }
-            .padding(.horizontal, 20.0).padding(.top, 28.0).padding(.bottom, 24)
-        }
-        .frame(maxWidth: .infinity)
-        .background(Color.black)
-        
+        }.background(.black)
     }
 }
 

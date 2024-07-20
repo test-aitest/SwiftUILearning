@@ -17,7 +17,7 @@ struct AppTabView: View {
     var body: some View {
 
         TabView(selection: $selectionTag) {
-            ContentView(tabNum: selectionTag).tabItem {
+            TodayView().tabItem {
                 VStack {
                     if selectionTag == 1 {
                         Image("Today.filled")

@@ -10,7 +10,6 @@
 		4002BCC02C46AC210092664C /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCBF2C46AC210092664C /* AppListView.swift */; };
 		4002BCC22C47CF160092664C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCC12C47CF160092664C /* AppView.swift */; };
 		4002BCC52C47DF650092664C /* AppAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCC42C47DF650092664C /* AppAssets.swift */; };
-		4002BCC72C47E35F0092664C /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCC62C47E35F0092664C /* AppTabView.swift */; };
 		4002BCC92C47E5350092664C /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCC82C47E5350092664C /* GamesView.swift */; };
 		4002BCCB2C47E5450092664C /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCCA2C47E5450092664C /* AppsView.swift */; };
 		4002BCCD2C47E55B0092664C /* ArcadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002BCCC2C47E55B0092664C /* ArcadeView.swift */; };
@@ -70,7 +69,6 @@
 		4002BCBF2C46AC210092664C /* AppListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListView.swift; sourceTree = "<group>"; };
 		4002BCC12C47CF160092664C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		4002BCC42C47DF650092664C /* AppAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssets.swift; sourceTree = "<group>"; };
-		4002BCC62C47E35F0092664C /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		4002BCC82C47E5350092664C /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
 		4002BCCA2C47E5450092664C /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
 		4002BCCC2C47E55B0092664C /* ArcadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeView.swift; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 		402370092C452D01005402EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4002BCC62C47E35F0092664C /* AppTabView.swift */,
 				4002BCC82C47E5350092664C /* GamesView.swift */,
 				4002BCCA2C47E5450092664C /* AppsView.swift */,
 				4002BCCC2C47E55B0092664C /* ArcadeView.swift */,
@@ -450,7 +447,6 @@
 				40177B4C2C4B82B000F1C92E /* Chapter5_7View.swift in Sources */,
 				408E0CFC2C44EB8B00EE3D4F /* Chapter4-4View.swift in Sources */,
 				408E0CEC2C42B52900EE3D4F /* Chapter3View.swift in Sources */,
-				4002BCC72C47E35F0092664C /* AppTabView.swift in Sources */,
 				4002BCD32C47FB550092664C /* HeadView.swift in Sources */,
 				408E0CF02C44C41F00EE3D4F /* Chapter4_1View.swift in Sources */,
 				4002BCC92C47E5350092664C /* GamesView.swift in Sources */,
