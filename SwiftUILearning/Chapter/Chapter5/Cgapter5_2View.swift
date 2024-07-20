@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct Cgapter5_2View: View {
+    @State var flg: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Toggle(isOn: $flg, label: {
+                Text(flg ? "Hello, World!" : "こんにちは")
+            })
+            .fixedSize()
+            .tint(.blue)
+            if flg {
+                Image(systemName: "heart.fill")
+                    .symbolRenderingMode(.multicolor)
+                    .font(.system(size: 80))
+            } else {
+                Image(systemName: "heart.slash")
+                    .symbolRenderingMode(.multicolor)
+                    .font(.system(size: 80))
+            }
+        }
     }
 }
 
 #Preview {
-    Cgapter5_2View()
+    Cgapter5_2View(flg: true)
 }

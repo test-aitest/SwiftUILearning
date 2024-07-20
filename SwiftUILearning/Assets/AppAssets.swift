@@ -1,5 +1,5 @@
 //
-//  Assets.swift
+//  AppAssets.swift
 //  SwiftUILearning
 //
 //  Created by 矢部竜季 on 2024/07/17.
@@ -19,4 +19,28 @@ let appList = [
     AppView(appImage: "Game_2", appTitle: "Piloteer", appCategory: "Adventure", price: "¥370"),
     AppView(appImage: "Game_3", appTitle: "Grab Lab", appCategory: "Silly Gravity\nArcade Puzzler", price: "GET"),
     AppView(appImage: "Game_4", appTitle: "Teslagrad Lab", appCategory: "A hard-drawn\nmagnetic puzzle", price: "¥610")
+]
+
+let tabIconList = [
+    "Today",
+    "Games",
+    "Apps",
+    "Arcade",
+    "Search"
+]
+
+let tabIconFilledList = [
+    "Today.filled",
+    "Games.filled",
+    "Apps.filled",
+    "Arcade.filled",
+    "Search.filled"
+]
+
+let tabTxtList = [
+    "Today",
+    "Games",
+    "Apps",
+    "Arcade",
+    "Search"
 ]

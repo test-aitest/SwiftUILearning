@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct Chapter5_8View: View {
+    @State var name: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("お名前は？？", text: $name)
+            .textFieldStyle(.roundedBorder)
+            .frame(width: 300)
+            .padding()
+        if !name.isEmpty {
+            Text("Hello, \(name)!")
+        } else {
+            Text("Welcome!!")
+        }
     }
 }
 

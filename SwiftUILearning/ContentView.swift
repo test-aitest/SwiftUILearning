@@ -8,39 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    var tabNum: Int = 1
     
     var body: some View {
         ScrollView {
-            VStack {
-                HStack(alignment: .bottom) {
-                    VStack(alignment: .leading) {
-                        Text("WEDNESDAY, APRIL 15")
-                            .font(CATEGORY)
-                            .foregroundColor(GRAY_400)
-                        Text("Today")
-                            .font(PAGE_TITLE)
-                            .foregroundColor(Color.white)
-                            .lineSpacing(40.0)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    Image("Avator")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 40, height: 40)
-                        .clipShape(Circle())
-                    
-                }
-                .frame(width: 335)
+            VStack(spacing: 8) {
+                HeadView()
                 
-                VStack(spacing: 20) {
-                    ForEach(0..<cardList.count-1, id: \.self) { index in
-                        cardList[index]
-                    }
-                    AppListView()
-                    cardList[cardList.count-1]
+                switch tabNum {
+                case 1:
+                    TodayView()
+                case 2:
+                    GamesView()
+                case 3:
+                    AppsView()
+                case 4:
+                    ArcadeView()
+                case 5:
+                    SearchView()
+                default: TodayView()
                 }
             }
-            .padding(.horizontal, 20.0).padding(.top, 28.0)
+            .padding(.horizontal, 20.0).padding(.top, 28.0).padding(.bottom, 24)
         }
         .frame(maxWidth: .infinity)
         .background(Color.black)

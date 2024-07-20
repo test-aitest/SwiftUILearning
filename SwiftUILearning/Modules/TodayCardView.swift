@@ -42,7 +42,6 @@ struct TodayCardView: View {
                 .padding(.leading, 16)
                 .frame(width: 270, alignment: .leading)
         }
-        
     }
 }
 

@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct GamesView: View {
+    @AppStorage("name") private var name: String = "Sauna1137"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(name)
+                .foregroundColor(.blue)
+            TextField("名前を入力してね", text: $name)
+        }
     }
 }
 
