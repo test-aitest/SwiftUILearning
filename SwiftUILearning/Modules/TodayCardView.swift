@@ -46,5 +46,5 @@ struct TodayCardView: View {
 }
 
 #Preview {
-    TodayCardView(categoryStr: "GAMES", title: "Top Apple\nArcade Games", description: "", imageName: "Card-2", titleFont: CARD_TITLE, titleColor: GRAY_000, descriptionColor: GRAY_700)
+    TodayCardView(categoryStr: "GAMES", title: "Top Apple\nArcade Games", description: "", imageName: "Card-2", titleFont: CARD_TITLE, titleColor: GRAY_000, descriptionColor: GRAY_700).preferredColorScheme(.dark)
 }

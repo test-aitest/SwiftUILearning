@@ -28,6 +28,9 @@
 		40177B522C4BC64900F1C92E /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */; };
 		40177B552C4BCBE700F1C92E /* HowToDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B542C4BCBE700F1C92E /* HowToDetailView.swift */; };
 		40177B572C4BD2AA00F1C92E /* StayHomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B562C4BD2AA00F1C92E /* StayHomeDetailView.swift */; };
+		40177B5A2C4C91FE00F1C92E /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B592C4C91FE00F1C92E /* CourseRow.swift */; };
+		40177B5C2C4C966C00F1C92E /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B5B2C4C966C00F1C92E /* CoursesView.swift */; };
+		40177B602C4CA00B00F1C92E /* Slidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40177B5F2C4CA00B00F1C92E /* Slidebar.swift */; };
 		4037762C2C424A9E00E7FBBA /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */; };
 		4037762E2C424A9E00E7FBBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4037762D2C424A9E00E7FBBA /* ContentView.swift */; };
 		403776302C424A9F00E7FBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4037762F2C424A9F00E7FBBA /* Assets.xcassets */; };
@@ -49,6 +52,12 @@
 		408E0CF92C44E1EC00EE3D4F /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CF82C44E1EC00EE3D4F /* RowView.swift */; };
 		408E0CFC2C44EB8B00EE3D4F /* Chapter4-4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CFB2C44EB8B00EE3D4F /* Chapter4-4View.swift */; };
 		408E0CFE2C44ED0300EE3D4F /* WebData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E0CFD2C44ED0300EE3D4F /* WebData.swift */; };
+		40B1960A2C4CA4AF0099D364 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B196092C4CA4AF0099D364 /* CourseItem.swift */; };
+		40B1960C2C4CA8150099D364 /* ChapterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B1960B2C4CA8150099D364 /* ChapterContentView.swift */; };
+		40B196102C4CB1E70099D364 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B1960F2C4CB1E70099D364 /* Course.swift */; };
+		40B196122C4D321A0099D364 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B196112C4D321A0099D364 /* CloseButton.swift */; };
+		40B196152C511DA60099D364 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B196142C511DA60099D364 /* CardModel.swift */; };
+		40B196192C511F910099D364 /* ChapterXX1ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B196182C511F910099D364 /* ChapterXX1ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +99,9 @@
 		40177B512C4BC64900F1C92E /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
 		40177B542C4BCBE700F1C92E /* HowToDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDetailView.swift; sourceTree = "<group>"; };
 		40177B562C4BD2AA00F1C92E /* StayHomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayHomeDetailView.swift; sourceTree = "<group>"; };
+		40177B592C4C91FE00F1C92E /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		40177B5B2C4C966C00F1C92E /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		40177B5F2C4CA00B00F1C92E /* Slidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slidebar.swift; sourceTree = "<group>"; };
 		403776282C424A9E00E7FBBA /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4037762B2C424A9E00E7FBBA /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		4037762D2C424A9E00E7FBBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +124,12 @@
 		408E0CF82C44E1EC00EE3D4F /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		408E0CFB2C44EB8B00EE3D4F /* Chapter4-4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter4-4View.swift"; sourceTree = "<group>"; };
 		408E0CFD2C44ED0300EE3D4F /* WebData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebData.swift; sourceTree = "<group>"; };
+		40B196092C4CA4AF0099D364 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		40B1960B2C4CA8150099D364 /* ChapterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterContentView.swift; sourceTree = "<group>"; };
+		40B1960F2C4CB1E70099D364 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		40B196112C4D321A0099D364 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		40B196142C511DA60099D364 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		40B196182C511F910099D364 /* ChapterXX1ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterXX1ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +188,36 @@
 				40177B562C4BD2AA00F1C92E /* StayHomeDetailView.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		40177B582C4C91BB00F1C92E /* ChapterXX0 */ = {
+			isa = PBXGroup;
+			children = (
+				40B1960D2C4CB1BE0099D364 /* Model */,
+				40177B5E2C4C9FEF00F1C92E /* Navigation */,
+				40177B5D2C4C9F9000F1C92E /* Items */,
+				40B196112C4D321A0099D364 /* CloseButton.swift */,
+			);
+			path = ChapterXX0;
+			sourceTree = "<group>";
+		};
+		40177B5D2C4C9F9000F1C92E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				40177B592C4C91FE00F1C92E /* CourseRow.swift */,
+				40177B5B2C4C966C00F1C92E /* CoursesView.swift */,
+				40B196092C4CA4AF0099D364 /* CourseItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		40177B5E2C4C9FEF00F1C92E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				40177B5F2C4CA00B00F1C92E /* Slidebar.swift */,
+				40B1960B2C4CA8150099D364 /* ChapterContentView.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		402370092C452D01005402EF /* Views */ = {
@@ -282,6 +330,8 @@
 				408E0CEB2C42B52900EE3D4F /* Chapter3View.swift */,
 				408E0CF12C44CEAA00EE3D4F /* Chapter4 */,
 				4002BCD62C4B65300092664C /* Chapter5 */,
+				40177B582C4C91BB00F1C92E /* ChapterXX0 */,
+				40B196132C511D700099D364 /* ChapterXX1 */,
 			);
 			path = Chapter;
 			sourceTree = "<group>";
@@ -314,6 +364,23 @@
 				408E0CFB2C44EB8B00EE3D4F /* Chapter4-4View.swift */,
 			);
 			path = "Chapter4-4";
+			sourceTree = "<group>";
+		};
+		40B1960D2C4CB1BE0099D364 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40B1960F2C4CB1E70099D364 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40B196132C511D700099D364 /* ChapterXX1 */ = {
+			isa = PBXGroup;
+			children = (
+				40B196142C511DA60099D364 /* CardModel.swift */,
+				40B196182C511F910099D364 /* ChapterXX1ContentView.swift */,
+			);
+			path = ChapterXX1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,28 +514,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				408E0CF32C44D05800EE3D4F /* Chapter4_2View.swift in Sources */,
+				40177B602C4CA00B00F1C92E /* Slidebar.swift in Sources */,
 				40177B502C4B8B2300F1C92E /* Chapter5_9IView.swift in Sources */,
 				4002BCDE2C4B735B0092664C /* Chapter5_4View.swift in Sources */,
 				4037762E2C424A9E00E7FBBA /* ContentView.swift in Sources */,
 				4002BCCD2C47E55B0092664C /* ArcadeView.swift in Sources */,
 				408B9D552C45369A00DEB12D /* AppDefine.swift in Sources */,
+				40B196152C511DA60099D364 /* CardModel.swift in Sources */,
 				408E0CEE2C42B5B000EE3D4F /* Chapter2View.swift in Sources */,
+				40177B5A2C4C91FE00F1C92E /* CourseRow.swift in Sources */,
 				40177B552C4BCBE700F1C92E /* HowToDetailView.swift in Sources */,
 				4002BCC22C47CF160092664C /* AppView.swift in Sources */,
 				408E0CF52C44DBD700EE3D4F /* PhotoData.swift in Sources */,
+				40B1960A2C4CA4AF0099D364 /* CourseItem.swift in Sources */,
 				4002BCC52C47DF650092664C /* AppAssets.swift in Sources */,
 				40177B572C4BD2AA00F1C92E /* StayHomeDetailView.swift in Sources */,
 				408E0CF92C44E1EC00EE3D4F /* RowView.swift in Sources */,
 				4002BCCB2C47E5450092664C /* AppsView.swift in Sources */,
 				4002BCCF2C47E5680092664C /* SearchView.swift in Sources */,
+				40B196122C4D321A0099D364 /* CloseButton.swift in Sources */,
+				40B196192C511F910099D364 /* ChapterXX1ContentView.swift in Sources */,
 				4037762C2C424A9E00E7FBBA /* SwiftUILearningApp.swift in Sources */,
 				408B9DBB2C46A04F00DEB12D /* Color+Hex.swift in Sources */,
 				40177B4C2C4B82B000F1C92E /* Chapter5_7View.swift in Sources */,
+				40177B5C2C4C966C00F1C92E /* CoursesView.swift in Sources */,
 				408E0CFC2C44EB8B00EE3D4F /* Chapter4-4View.swift in Sources */,
 				408E0CEC2C42B52900EE3D4F /* Chapter3View.swift in Sources */,
 				4002BCD32C47FB550092664C /* HeadView.swift in Sources */,
 				408E0CF02C44C41F00EE3D4F /* Chapter4_1View.swift in Sources */,
+				40B1960C2C4CA8150099D364 /* ChapterContentView.swift in Sources */,
 				4002BCC92C47E5350092664C /* GamesView.swift in Sources */,
+				40B196102C4CB1E70099D364 /* Course.swift in Sources */,
 				4002BCD82C4B656E0092664C /* Chapter5_1View.swift in Sources */,
 				4002BCDA2C4B6C450092664C /* Cgapter5_2View.swift in Sources */,
 				408E0CF72C44DDA900EE3D4F /* Chapter4_3View.swift in Sources */,

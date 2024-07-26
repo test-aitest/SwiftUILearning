@@ -9,7 +9,9 @@ import SwiftUI
 
 struct HowToDetailView: View {
     var body: some View {
-        Text("Hello, HowToDetailView!")
+        Text("Hello, HowToDetailView!").foregroundColor(.blue)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.black)
     }
 }
 

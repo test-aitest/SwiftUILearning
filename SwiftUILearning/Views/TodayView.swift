@@ -8,24 +8,28 @@
 import SwiftUI
 
 struct TodayView: View {
+    @State private var showDetailView = false
+    @State private var selectedCardIndex: IdentifiableInt?
+
     var body: some View {
-        NavigationView {
-            ScrollView {
-                VStack(spacing: 20) {
-                    ForEach(0..<cardList.count-1, id: \.self) { index in
-                        NavigationLink(destination: destinationView(for: index)) {
-                            cardList[index]
-                        }
-                    }.buttonStyle(PlainButtonStyle())
-                    AppListView()
-                    cardList[cardList.count-1]
+        ScrollView {
+            VStack(spacing: 20) {
+                ForEach(0..<cardList.count-1, id: \.self) { index in
+                    Button {
+//                        withAnimation(.interactiveSpring(response: 0.6, ))
+                    } label: {
+                        cardList[index]
+                    }
                 }
+                .buttonStyle(PlainButtonStyle())
+                AppListView()
+                cardList[cardList.count-1]
             }
-            .frame(maxWidth: .infinity)
-            .background(.black)
         }
+        .frame(maxWidth: .infinity)
+        .background(Color.black)
     }
-    
+
     // Function to determine the destination view
     @ViewBuilder
     private func destinationView(for index: Int) -> some View {
@@ -38,6 +42,10 @@ struct TodayView: View {
             Text("Default Detail View")
         }
     }
+}
+
+struct IdentifiableInt: Identifiable {
+    var id: Int
 }
 
 #Preview {
